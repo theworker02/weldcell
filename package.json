@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/weldcell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weld filesystem cell paths across POSIX and Windows conventions.",
+  "bin": {
+    "weldcell": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/weldcell.git"
+  },
+  "homepage": "https://theworker02.github.io/weldcell/",
+  "keywords": [
+    "weld",
+    "cell",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
